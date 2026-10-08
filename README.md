@@ -8,7 +8,7 @@ Producto digital único: un archivo Excel en inglés que estima el neto de cada 
 - Tienda: <https://payhip.com/sellermargintoolkit>
 - Landing pública: <https://enriqueb86.github.io/payhipex/site/>
 - Repositorio: <https://github.com/Enriqueb86/payhipex>
-- Publicación inicial: <https://www.linkedin.com/feed/update/urn:li:share:7513987924233994240/>
+- Publicación inicial: <https://www.linkedin.com/feed/update/urn:li:activity:7513987925940932609/>
 - Estado verificado: **8 de octubre de 2026**
 
 ## Árbol

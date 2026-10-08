@@ -21,7 +21,7 @@ Estado verificado el **8 de octubre de 2026**. No compartir claves ni datos de p
 
 4. ✅ **Post de distribución publicado una sola vez**
    - Publicado en el perfil personal de LinkedIn el 8 de octubre de 2026.
-   - Publicación: `https://www.linkedin.com/feed/update/urn:li:share:7513987924233994240/`.
+   - Publicación: `https://www.linkedin.com/feed/update/urn:li:activity:7513987925940932609/`.
    - No se usaron mensajes directos, automatización ni republicaciones.
 
 5. **Revisión semanal del reporte — 5 min por semana**
