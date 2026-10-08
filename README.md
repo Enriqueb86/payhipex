@@ -2,6 +2,15 @@
 
 Producto digital único: un archivo Excel en inglés que estima el neto de cada pedido después de las tarifas configuradas. Precio fijo de lista: **9.99 USD**. Canal principal: Payhip. Canal secundario opcional: un listing en Etsy con el mismo archivo.
 
+## Estado publicado
+
+- Compra en Payhip: <https://payhip.com/b/LRMqF>
+- Tienda: <https://payhip.com/sellermargintoolkit>
+- Landing pública: <https://enriqueb86.github.io/payhipex/site/>
+- Repositorio: <https://github.com/Enriqueb86/payhipex>
+- Publicación inicial: <https://www.linkedin.com/feed/update/urn:li:share:7513987924233994240/>
+- Estado verificado: **8 de octubre de 2026**
+
 ## Árbol
 
 ```text
@@ -45,4 +54,3 @@ No había `GEMINI_API_KEY` disponible al preparar este repo, por lo que no se hi
 ## Criterio de muerte
 
 A los **42 días**, si hay **0 ventas** y **menos de 50 visitas al listing**, no agregar más páginas, canales ni automatizaciones. Proponer otro archivo digital relacionado y esperar aprobación explícita antes de construirlo.
-
