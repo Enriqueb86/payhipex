@@ -17,6 +17,7 @@ Producto digital único: un archivo Excel en inglés que estima el neto de cada 
 .
 ├── product/
 │   ├── etsy-seller-profit-tracker.xlsx
+│   ├── etsy-seller-profit-tracker.zip
 │   └── CHECKS.md
 ├── sales/
 │   └── payhip.md
@@ -26,8 +27,12 @@ Producto digital único: un archivo Excel en inglés que estima el neto de cada 
 ├── listings/
 │   ├── etsy.md
 │   ├── image-prompts.md
+│   ├── build_etsy_images.py
 │   ├── gemini_images.py
 │   └── images/
+│       ├── backgrounds/
+│       ├── source/
+│       └── etsy/
 ├── distribution/
 │   └── post.md
 ├── tools/
@@ -43,13 +48,15 @@ Producto digital único: un archivo Excel en inglés que estima el neto de cada 
 
 1. No modificar las fórmulas sin repetir los ocho checks de `product/CHECKS.md`.
 2. Verificar las tarifas en `SETTINGS` antes de capturar imágenes o vender una versión nueva.
-3. Mantener el precio en 9.99 USD y usar un solo archivo en Payhip y Etsy.
+3. Mantener el precio en 9.99 USD y usar el mismo workbook en Payhip y Etsy. En Etsy se entrega dentro de un ZIP porque esa plataforma no admite `.xlsx` como extensión directa.
 4. La URL de compra de Payhip es `https://payhip.com/b/LRMqF`.
 5. Registrar únicamente métricas reales en `REPORT.md`.
 
 ## Imágenes
 
-No había `GEMINI_API_KEY` disponible al preparar este repo, por lo que no se hizo ninguna llamada de imagen. Los seis prompts están en `listings/image-prompts.md`. El script `listings/gemini_images.py` lee la clave solo desde el entorno, intenta primero `gemini-nano-banana-2.1`, usa `gemini-3.1-flash-image` como fallback y se detiene a más tardar en ocho llamadas. `.env` está ignorado por Git.
+Las siete imágenes finales del listing están en `listings/images/etsy/`, en formato JPEG de 2400 × 1800 px. La primera muestra el workbook real sin texto promocional superpuesto; las siguientes explican el contenido, los cálculos y lo que recibe el comprador. `listings/build_etsy_images.py` recompone las piezas desde las capturas reales de `listings/images/source/` y los fondos de `listings/images/backgrounds/`.
+
+El script histórico `listings/gemini_images.py` se conserva como referencia, pero no es necesario para publicar el listing actual.
 
 ## Criterio de muerte
 

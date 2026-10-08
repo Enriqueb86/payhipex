@@ -1,28 +1,38 @@
-# Product image prompts
+# Etsy listing image prompt set
 
-Generate each image at 1K resolution. Keep the product photography clean and premium, with no faces, no Etsy logo, no third-party logos, and no tiny or illegible text. Use a restrained navy, soft blue, white, and warm amber palette. The spreadsheet is the product; do not imply endorsements, reviews, sales numbers, or financial guarantees.
+These prompts produced the background assets in `listings/images/backgrounds/`. Exact typography and real workbook renders are added deterministically by `listings/build_etsy_images.py`; generated spreadsheet text is never used as product evidence.
 
-## 1. Cover — 4:5 portrait
+## Shared constraints
 
-Clean premium digital-product cover, 4:5 portrait composition, showing a polished laptop with an Excel-style profit tracker workbook open, navy and soft-blue spreadsheet interface with warm amber input cells, a few large readable labels only: “Seller Profit Tracker”, “After Fees”, and “Excel Workbook”, crisp studio lighting, white background, subtle paper ledger accents, no faces, no Etsy logo, no brand logos, no ratings, no sales claims, no tiny text, realistic product photography, high legibility.
+- 4:3 landscape composition
+- No text, letters, numbers, logos, icons, spreadsheets, devices, or watermarks unless explicitly requested
+- Warm off-white, deep navy, pale blue, emerald green, and restrained muted-gold palette
+- Clean, trustworthy finance/editorial aesthetic with generous negative space
 
-## 2. ORDERS sheet open — 4:5 portrait
+## 00 — clean primary mockup
 
-Close product screenshot mockup in a 4:5 portrait layout, laptop display showing the ORDERS sheet of a seller profit tracker, clearly visible columns for Date, Listing, Item Price, Shipping, Quantity, Offsite Ad, Etsy Ads, Refund, Total Fees, and Net Profit, yellow editable cells and pale-blue calculated cells, navy table header, clean realistic spreadsheet, readable large text, minimal white background, no faces, no Etsy logo, no other brands, no illegible microcopy.
+Premium 4:3 landscape product mockup for a digital spreadsheet listing: a modern unbranded laptop viewed perfectly straight-on, centered on a clean light wood desk, soft daylight, warm off-white wall, small neutral notebook and pencil placed subtly to one side, refined navy and emerald accents in the environment. The laptop screen must be a large blank pure white rectangle with straight horizontal and vertical edges, no reflections, ready for a later exact screenshot overlay. No people, no hands, no logos, no words, no letters, no numbers, no watermarks, no other screens. Trustworthy realistic home-office photography, uncluttered composition.
 
-## 3. Dashboard — 4:5 portrait
+## 01 — cover background
 
-Premium spreadsheet dashboard product image, 4:5 portrait, clean desktop monitor showing a monthly seller profit dashboard with four readable metrics: Net Sales, Total Fees, Net Profit, and Margin, plus Orders with Offsite Ads, navy and soft-blue design with one warm amber month selector, realistic Excel-style workbook, generous whitespace, crisp type, no faces, no Etsy logo, no third-party logos, no false sales claims, no unreadable text.
+Premium 4:3 landscape background for a digital-product listing image. Modern editorial finance/spreadsheet aesthetic, warm off-white paper texture, deep navy geometric frame accents, subtle pale-blue grid lines, a restrained emerald-green accent shape, generous clean negative space, polished and trustworthy, flat graphic design with very light depth.
 
-## 4. Net-profit detail — 4:5 portrait
+## 02 — orders background
 
-Macro product image focused on one spreadsheet order row, 4:5 portrait, visually trace a $70.00 order through listing fee, transaction fee, payment processing, Offsite Ads, Etsy Ads spend, total fees, and a clearly readable $47.90 net profit, subtle highlight around the final net cell, clean navy-blue and amber workbook style, realistic screen texture, no faces, no Etsy logo, no brand logos, no tiny text, no guarantee language.
+Premium 4:3 landscape background for the second explanatory image. Clean warm-white editorial canvas, deep navy vertical color block on the left, subtle pale-blue grid and thin gold rules, small restrained emerald accent, lots of open space on the right for a real spreadsheet screenshot. Flat polished finance aesthetic.
 
-## 5. Desk mockup — 4:5 portrait
+## 03 — fees background
 
-Clean home-office product mockup, 4:5 portrait, modern desk with laptop showing a seller profit tracker spreadsheet, small notebook and calculator nearby, soft daylight, neutral white and navy color story with amber accents, organized and credible rather than luxurious, screen content readable at a glance, no people, no hands, no Etsy logo, no other brand logos, no reviews, no revenue claims, no illegible text.
+Premium 4:3 landscape background for the fee-breakdown image. Warm off-white paper, a wide deep-navy band across the top, subtle pale-blue ledger grid in the lower area, restrained emerald and muted-gold geometric accents, clean center area for later overlay. Trustworthy modern financial editorial design.
 
-## 6. Square thumbnail — 1:1
+## 04 — settings background
 
-High-contrast square marketplace thumbnail, 1:1, laptop with a clear spreadsheet dashboard centered, bold readable title limited to “Seller Profit Tracker” and small secondary line “After Fees”, navy background block, soft-blue table cells, warm amber highlight on net profit, clean premium digital download presentation, strong composition that remains legible when small, no faces, no Etsy logo, no third-party logos, no ratings, no tiny text.
+Premium 4:3 landscape background for the editable-settings image. Modern financial editorial style, warm white paper texture, deep navy lower-left diagonal panel, pale-blue ledger grid, thin muted-gold dividers, small emerald accent, large clean central and upper-right negative space for later typography and a real settings screenshot.
 
+## 05 — dashboard background
+
+Premium 4:3 landscape background for the monthly-dashboard image. Clean warm off-white canvas, subtle blue accounting grid, deep navy frame along bottom and right edges, restrained emerald semicircle and thin muted-gold lines, large balanced negative space for a dashboard screenshot and typography. Sophisticated trustworthy finance aesthetic.
+
+## 06 — contents background
+
+Premium 4:3 landscape background for a product-summary collage. Elegant warm off-white paper texture, six subtle pale-blue rectangular card placeholders arranged in a balanced grid, deep navy border accents, restrained emerald and muted-gold geometric shapes, generous space for later exact text and real screenshots.

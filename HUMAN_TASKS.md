@@ -13,11 +13,12 @@ Estado verificado el **8 de octubre de 2026**. No compartir claves ni datos de p
    - Landing: `https://enriqueb86.github.io/payhipex/site/`.
    - Enlaces, precio y diseño responsive comprobados en escritorio y móvil.
 
-3. **Opcional: publicar un único listing en Etsy — 20–30 min**
-   - Crear o entrar a la cuenta, aceptar términos, completar identidad, impuestos y cobro personalmente.
-   - Usar `listings/etsy.md`, subir el mismo `.xlsx`, fijar **9.99 USD** y marcarlo como descarga digital instantánea.
-   - Usar hasta seis imágenes de `listings/images/`; no usar logos, reseñas o ventas inventadas.
-   - Revisar las políticas y tarifas vigentes antes de publicar.
+3. **En curso: publicar un único listing en Etsy**
+   - La vinculación de cobro con Payoneer está completa; falta que el titular cargue la tarjeta, dirección de facturación, acepte el cargo único de **19 USD** y termine la seguridad de la tienda.
+   - Después, usar `listings/etsy.md`, subir `product/etsy-seller-profit-tracker.zip`, fijar **9.99 USD** y marcarlo como descarga digital instantánea.
+   - Subir en orden las siete imágenes terminadas de `listings/images/etsy/`.
+   - El ZIP contiene exactamente el mismo `.xlsx` que se vende en Payhip; se usa ZIP porque Etsy no admite `.xlsx` como extensión de carga directa.
+   - No publicar reseñas, ventas, garantías ni resultados inventados.
 
 4. ✅ **Post de distribución publicado una sola vez**
    - Publicado en el perfil personal de LinkedIn el 8 de octubre de 2026.
